@@ -47,10 +47,10 @@ body{font-family:'Cairo',sans-serif;color:#4a2c6d;background:#efe6fa}
 .cap{font-family:'Aref Ruqaa',serif;font-size:clamp(1.6rem,5vw,2.4rem);color:#5b2f8a;margin-bottom:16px;z-index:2}
 .photos{display:flex;flex-wrap:wrap;gap:18px;justify-content:center;align-items:center;z-index:2;max-height:100%;overflow-y:auto;padding:10px;scrollbar-width:none}
 .photos::-webkit-scrollbar{display:none}
-.card{background:#fff;padding:10px 10px 30px;border-radius:8px;box-shadow:0 8px 22px rgba(90,50,140,.25);transition:transform .3s}
+.card{background:#fff;padding:10px 10px 28px;border-radius:8px;box-shadow:0 8px 22px rgba(90,50,140,.25);transition:transform .3s}
 .card:nth-child(1){transform:rotate(-4deg)}.card:nth-child(2){transform:rotate(3deg)}.card:nth-child(3){transform:rotate(-2deg)}
 .card:hover{transform:rotate(0) scale(1.04)}
-.card img{display:block;width:min(26vw,230px);min-width:140px;height:min(34vh,290px);object-fit:cover;object-position:top;border-radius:4px}
+.card img{display:block;width:auto;height:auto;max-width:min(86vw,420px);max-height:32vh;border-radius:4px}
 .deco{position:absolute;pointer-events:none;z-index:1;animation:drift linear infinite;opacity:.85}
 @keyframes drift{0%{transform:translateY(0) rotate(0)}50%{transform:translateY(-22px) rotate(15deg)}100%{transform:translateY(0) rotate(0)}}
 
@@ -90,9 +90,9 @@ body{font-family:'Cairo',sans-serif;color:#4a2c6d;background:#efe6fa}
     <h2>روضة 💜</h2>
     <p>روضة حقيقي بجد، شكرًا إنك كل مرة بتسمعيني وبتسمعي مني كلام كتير فيه صياح، وبتفوّقيني وبتحسسيني إني مش لوحدي وإن معايا حد بيسمعني.</p>
     <p>شكرًا إنك موجودة، وبتهتمي بطريقتك، وشكرًا إنك موجودة حقيقي، وشكرًا إنك معايا في خطوات كتير مهمة في حياتي.</p>
-    <p>أنا فعلًا كنت بنفّذ رأيك ونصايحك في حاجات وخطوات كتير مهمة جدًا عندي. حتى لما قلتيلي "لا متفكريش كده" وإنك قابلتيني، أنا فعلًا بدأت أهدى أكتر وبدأت أفهم أكتر.</p>
+    <p>أنا فعلًا كنت بنفّذ رأيك ونصايحك في حاجات وخطوات كتير مهمة جدًا عندي. حتى لما قلتيلي "لا متفكريش كده" وإنك قبلتيني ، أنا فعلًا بدأت أهدى أكتر وبدأت أفهم أكتر.</p>
     <p>ولما قلتي إن علاقتي بالقطط ممكن متبقاش صحية، اتضايقت شوية، عشان كنت بس متأثرة في الموقف، فكنت بتكلم وبصيّح، وحسيت وقتها إنك بتقولي إني متعلقة. بس أنا كنت متأثرة بالموقف بس، وكلامي معاكي في أحيان كتير جدًا ومرات كتير جدًا مش بيبقى فيه قطط، هو الموقف بس.</p>
-    <p>بس بعدها مبقتش مضايقة أوي، لأني فهمت إنك بس مش مكاني أوي، فممكن متبقيش فاهماني، وده عادي. المهم إنك متقبّلة اختلافي، وشكرًا إنك متقبّلة اختلافي 💜</p>
+    <p>بس بعدها مبقتش مضايقة أوي، لأني فهمت إنك ممكن عشان بس مش مكاني أوي، فممكن متبقيش فاهماني، وده عادي. المهم إنك متقبّلة اختلافي، وشكرًا إنك متقبّلة اختلافي 💜</p>
     <div class="pad"></div>
   </div>
 </section>
